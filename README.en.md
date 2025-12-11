@@ -1,3 +1,5 @@
+[English](README.en.md) | [简体中文](README.md)
+
 # RealReachability-Swift
 
 Yes, it is exactly what you think it is. This component determines the **actual, real-time network reachability**, not just the current network environment shown by the system.
@@ -20,6 +22,12 @@ All internal state updates are processed on background threads, then published u
 
 - iOS 14+
 - UIKit / SwiftUI
+
+## Integration
+
+Currently supports integration via CocoaPods:
+
+`pod 'RealReachability-Swift'`
 
 ## Usage
 
