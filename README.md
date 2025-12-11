@@ -18,7 +18,7 @@
 使用先进的原生框架 Combine + async/await 来进行实现，来减少对项目的额外负担。
 内部状态变化的接收在异步线程中执行，并统一在主线程中进行发布，以避免使用时意外的在子线程修改界面。
 
-# 支持
+# 应用支持
 
 **系统版本** `iOS14+`
 
@@ -87,7 +87,7 @@ RealReachability.shared.getLocalNetworkAuth { status in
 
 ```
 
-# Support
+# 持续维护
 
 如果遇到问题，请 Issues 我，我将尽快提供支持（在工作之余）。
 
