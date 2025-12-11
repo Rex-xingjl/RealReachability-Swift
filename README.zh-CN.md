@@ -3,13 +3,13 @@
 [English](README.en.md) | [简体中文](README.zh-CN.md)
 
 # RealReachability-Swift
-没错，就是你想的那个。判断实时网络的真实连通性控件，不仅仅显示处于什么网络环境。
+没错，就是你想的那个。判断**实时网络真实连通性**的控件，不仅仅显示处于什么网络环境。
 
 # 前言
 灵感来自于 https://github.com/dustturtle/RealReachability
 该项目使用 ping 来实时探测网络连接情况，可以避免处于某种网络但是实际无通信能力的情况
 
-在实际使用中，我们遇到了一些复杂的网络场景，ping不通但是可以http请求正常，例如：虚拟ip访问。
+在实际使用中，我们遇到了一些复杂的网络场景，** ping 不通但是 http 请求正常**，例如：虚拟 ip 访问。
 这给我们带来的一些意料外的情况。
 
 所以在进行 Swift 改造时，我将 Ping 连接改为了使用 URLSession 进行轻量的 Head 请求，
