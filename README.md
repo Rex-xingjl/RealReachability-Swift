@@ -1,6 +1,6 @@
 <img width="300" height="300" alt="icon-image" src="https://github.com/user-attachments/assets/23aa462c-efee-4e40-b394-042d48f5ec7d" />
 
-[English](README.en.md) | [简体中文](README.zh-CN.md)
+[English](README.en.md) | [简体中文](README.md)
 
 # RealReachability-Swift
 没错，就是你想的那个。判断**实时网络真实连通性**的控件，不仅仅显示处于什么网络环境。
