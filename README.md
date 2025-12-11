@@ -26,6 +26,12 @@
 
 **界面框架** `UIKit` / `SwiftUI`
 
+# 集成方式
+
+目前支持 Pod 方式集成
+
+`pod 'RealReachability-Swift'`
+
 # 使用方式
 
 你需要做的前置步骤，只有这个：
