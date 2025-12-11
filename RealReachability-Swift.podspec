@@ -15,10 +15,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Rex-xingjl/RealReachability-Swift"
   # Add screenshots next time.
   s.license      = "MIT"
-  s.author             = { "Rex.Xing" => "xingjl@outlook.com" }
+  s.author             = { "Rex.Xing" => "343787863@qq.com" }
   s.platform = :ios
   s.ios.deployment_target = '13.0'
   s.source  = { :git => "https://github.com/Rex-xingjl/RealReachability-Swift", :tag => s.version, :submodules => true }
   s.source_files  = "RealReachability"
+  s.swift_versions = '5.0'
 
 end
